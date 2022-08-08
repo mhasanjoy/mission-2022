@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10%;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 66%;
+    margin-left: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.top-header {
+    border-left: 3px solid #FF5959;
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+
+.color-hignlight {
+    color: #FFAD5A;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.description {
+    padding: 1.5rem 0;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+}
