@@ -3,7 +3,8 @@ body {
     margin: 0 10%;
 }
 
-.top-section {
+.top-section,
+.mission-details {
     display: flex;
     align-items: center;
 }
@@ -27,7 +28,7 @@ h1 {
     margin-bottom: 0;
 }
 
-.color-hignlight {
+.color-highlight {
     color: #FFAD5A;
 }
 
@@ -45,4 +46,38 @@ p {
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
+}
+
+.mission-header {
+    text-align: center;
+}
+
+.mission,
+.vision,
+.goals {
+    width: 33%;
+    height: 18rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.mission-section img {
+    width: 40%;
+}
+
+.mission {
+    background-color: rgba(79, 157, 166, 0.10);
+}
+
+.vision {
+    background-color: rgba(255, 89, 89, 0.10);
+    margin: 0 20px;
+}
+
+.goals {
+    background-color: rgba(255, 244, 214);
+}
+
+h3 {
+    font-size: 1.5rem;
 }
