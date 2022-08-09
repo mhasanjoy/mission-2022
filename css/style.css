@@ -1,15 +1,15 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 main {
-    margin: 0 5%;
+    margin: 5%;
 }
 
-.top-section,
+.top,
 .mission-details,
-.develop-section,
-.community-section,
+.develop,
+.global-community,
 .app-details {
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ main {
     width: 50%;
 }
 
-.half-width img {
+.top img {
     width: 66%;
     margin-left: 5rem;
 }
@@ -28,6 +28,7 @@ main {
 h1 {
     font-size: 3rem;
     margin-bottom: 0;
+    color: #333333;
 }
 
 .top-header {
@@ -41,6 +42,7 @@ h1 {
 
 p {
     font-size: 1.2rem;
+    color: #3E3E3E;
 }
 
 .description {
@@ -55,13 +57,14 @@ p {
     border-radius: 5px;
 }
 
-.mission-section {
+.my-mission {
     padding: 100px 0;
 }
 
 .center-header {
     text-align: center;
     margin-bottom: 2.5rem;
+    color: #13103A;
 }
 
 .mission,
@@ -73,7 +76,7 @@ p {
     border-radius: 10px;
 }
 
-.mission-section img {
+.my-mission img {
     width: 40%;
 }
 
@@ -94,7 +97,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-.develop-section {
+.develop {
     background-image: url("../images/shapes/shape-1.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -105,55 +108,71 @@ h3 {
     width: 38%;
 }
 
-.coding img {
+.coding img,
+.project img {
     width: 100%;
 }
 
-.develop {
+.develop-details {
     width: 62%;
     padding-left: 4rem;
 }
 
 h2 {
     font-size: 2.2rem;
+    color: #333333;
 }
 
-.community-section {
+.global-community {
     padding-top: 100px;
     padding-bottom: 65px;
     background-image: url("../images/shapes/shape-2.png");
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: bottom;
+    background-position: right bottom;
 
 }
 
-.global-community {
+.community-details {
     width: 62%;
     padding-right: 4rem;
 }
 
-.project img {
-    width: 100%;
+.app-details {
+    margin-top: 100px;
+    margin-left: 5rem;
 }
 
 .app-details img {
-    width: 50%;
-    margin-left: 1.8rem;
-    margin-top: 2rem;
+    width: 60%;
+    margin-left: 2.3rem;
+    margin-top: 2.3rem;
 }
 
-.app {
+.app-picture {
     background-image: url("../images/shapes/shape-3.png"), url("../images/shapes/shape-4.png"), url("../images/shapes/shape-4.png");
     background-repeat: no-repeat;
-    background-position: left, left, bottom;
-    background-position-y: top, bottom, 20rem;
+    background-position-x: left, 2rem, 16rem;
+    background-position-y: top, bottom, 22.6rem;
 }
 
 footer {
     text-align: center;
     background-color: #0B0D17;
-    color: white;
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 2rem 0;
+}
+
+footer h2 {
+    font-weight: 500;
+    color: white;
+}
+
+.footer-highlight {
+    color: #FF5959;
+}
+
+footer p {
+    font-size: .8rem;
+    color: #D9DBE1;
+    margin-top: 1rem;
 }
