@@ -136,11 +136,13 @@ h2 {
 
 .app-details img {
     width: 50%;
+    margin-left: 1.8rem;
+    margin-top: 2rem;
 }
 
 .app {
-    background-image: url("../images/shapes/shape-3.png");
+    background-image: url("../images/shapes/shape-3.png"), url("../images/shapes/shape-4.png"), url("../images/shapes/shape-4.png");
     background-repeat: no-repeat;
-    background-position: left;
-    background-position: ;
+    background-position: left, left, bottom;
+    background-position-y: top, bottom, 20rem;
 }
